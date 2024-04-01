@@ -7,7 +7,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
-
+	<!--packaging>test</packaging-->
     <profiles>
         <profile>
             <id>desarrollo</id>
