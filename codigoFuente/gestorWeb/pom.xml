@@ -7,6 +7,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
+
     <profiles>
         <profile>
             <id>desarrollo</id>
@@ -36,6 +37,7 @@
             </properties>
         </profile>
     </profiles>
+	
     <properties>
         <java.version>1.8</java.version>
         <springframework.version>4.3.3.RELEASE</springframework.version>
