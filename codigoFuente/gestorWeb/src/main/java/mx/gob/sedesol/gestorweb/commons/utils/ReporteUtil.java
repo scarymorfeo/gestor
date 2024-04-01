@@ -50,7 +50,9 @@ public class ReporteUtil {
     public static final Integer REPORTE_PDF = 1;
     public static final Integer REPORTE_EXCEL = 2;
     
-    
+    /**
+	*
+	*/
     public static byte[] generar2(ReporteConfig configuracionReporte) {
     	
         final InputStream stream = FacesContext.getCurrentInstance().getExternalContext().getResourceAsStream(configuracionReporte.getPathJasper());
